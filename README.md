@@ -165,6 +165,8 @@ A barebones `gyp` file appropriate for building a Node.js addon could look like:
 }
 ```
 
+__Note:__ For parallel compilation on Windows, you will need to use absolute paths for `sources`.
+
 ## Further reading
 
 The **[docs](./docs/)** directory contains additional documentation on specific node-gyp topics that may be useful if you are experiencing problems installing or building addons using node-gyp.
